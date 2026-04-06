@@ -1,3 +1,32 @@
+# Avatar App
+
+Small React + Vite demo that shows avatar cards with DaisyUI + Tailwind.
+
+Features
+
+- Search avatars by name or work
+- Add random avatar
+- Remove avatars
+- Edit avatar name/work in a modal
+- Like avatars (local only)
+- Theme toggle (DaisyUI themes)
+- Persistence via `localStorage`
+
+Run
+
+Install dependencies and start dev server:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the app at the Vite URL shown in the terminal (usually `http://localhost:5173` or nearby port).
+
+Notes
+
+- Tailwind v4 is used with the `@tailwindcss/vite` plugin.
+- Styles come from `src/index.css` (Tailwind directives + Google font).
 
 ### To check project visit: https://avatar-app.netlify.app
 
